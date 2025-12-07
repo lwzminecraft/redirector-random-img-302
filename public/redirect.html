@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Redirect</title>
+    <script>
+        // 定义图片的数量 (7 张图片)
+        const totalImages = 7;
+        // 生成一个 1 到 7 之间的随机整数
+        const randomIndex = Math.floor(Math.random() * totalImages) + 1;
+        
+        // 构造目标 URL 并跳转
+        // 浏览器将跳转到 /img/1, /img/2, ..., /img/7 中的一个
+        const targetUrl = "/img/" + randomIndex;
+        window.location.replace(targetUrl);
+    </script>
+</head>
+<body>
+    <p>正在加载随机图片...</p>
+</body>
+</html>
