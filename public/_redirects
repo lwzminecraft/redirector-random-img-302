@@ -3,13 +3,13 @@
 # 随机重定向规则：
 # 假设用户访问 /1, /2, /3 等路径，将分别重定向到不同的图片。
 
-/img/1  https://p0.meituan.net/csc/851df2485d26011ba63284f6c3a199562776700.jpg 302
-/img/2  https://p0.meituan.net/csc/cf01e3a659af106537bee9b3099f10ca1460483.jpg 302
-/img/3  https://p0.meituan.net/csc/b90d0b7ce76335fec64d8fd544eaae36329581.jpg 302
-/img/4  https://p0.meituan.net/csc/97e2e56bfacfe7f1a1ad621eb61292231354553.jpg 302
-/img/5  https://p0.meituan.net/csc/cc06d578b5f60531d18e0f4b4412cb452064589.jpg 302
-/img/6  https://p0.meituan.net/csc/768d2ff5058388a1bf9049d5a84c542c323924.jpg 302
-/img/7  https://p1.meituan.net/csc/bdb16e48648f6b66b4efb1be9a7a526a1357694.jpg 302
+/img/1  https://wpapi.lwzmc1437.cn/OSS/0d9efb5a2fca6440b7d7f348571b9d7bfc2644b2.jpg 302
+/img/2  https://wpapi.lwzmc1437.cn/OSS/13bdfa7bcaad054e1d38fdf04cf1cc507a18b95c.jpg 302
+/img/3  https://wpapi.lwzmc1437.cn/OSS/20251023_000324-kkof.jpg 302
+/img/4  http://wpapi.lwzmc1437.cn/OSS/c8ae96107fbdc1d46993215d5c69902babb06aa7.jpg 302
+/img/5  https://wpapi.lwzmc1437.cn/OSS/background-4.jpg 302
+/img/6  https://wpapi.lwzmc1437.cn/OSS/b52a2ae589530aa9c57e5b725b689c3420ff1e17.jpg 302
+/img/7  https://wpapi.lwzmc1437.cn/random/133637578_p0.jpg 302
 
 # 关键步骤：实现根路径随机化
 # 将根路径 (/) 的访问代理到一个简单的 HTML/JavaScript 文件
